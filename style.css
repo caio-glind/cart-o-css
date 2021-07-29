@@ -71,7 +71,9 @@ overflow: hidden;
 .container .card:hover .conte h2
 {
     opacity: 1;
-    transform:translateY(-70px)
+    transform:translateY(-35px);
+    width: 0.7em;
+
 }
 .container .card .conte h3
 {
@@ -93,6 +95,17 @@ transition: 0.5s;
     font-weight: 300;
 transition: 0.5s;
 }
+.container .card .conte ul
+{
+    position:relative;
+    font-size: 1.5em;
+    color: #fff;
+    z-index: 1;
+  
+    font-weight:300;
+transition: 0.5s;
+}
+
 
 .container .card:hover .conte p,
 .container .card:hover .conte h3
